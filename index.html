@@ -3,25 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Random Fact Generator</title>
+    <title>Random Facts</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Random Fact Generator</h1>
-        <nav>
-            <ul>
-                <li><a href="#home" onclick="navigate('home')">Home</a></li>
-                <li><a href="#facts" onclick="navigate('facts')">Facts</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main id="content">
-        <!-- Content will be dynamically loaded here -->
-    </main>
-    <footer>
-        <p>&copy; 2024 Random Fact Generator</p>
-    </footer>
+    <div class="container">
+        <h1>Random Facts About Me</h1>
+        <div id="fact-display" class="fact-display">
+            Click the button to see a random fact!
+        </div>
+        <button id="generate-fact" class="btn">Generate Fact</button>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
